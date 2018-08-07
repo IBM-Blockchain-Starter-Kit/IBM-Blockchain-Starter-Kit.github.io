@@ -20,7 +20,7 @@ If you would like to contribute to the kit, check out our [contributing guide](h
 
 For each layer of the application stack, we have created a custom [bluemix toolchain](https://console.bluemix.net/docs/services/ContinuousDelivery/toolchains_about.html#toolchains_about) template. This template configures the relevant development environment with version tracking (cloning from a scaffolding repo) and continuous integration (using our build-test-deploy framework).
 
-Check out the toolchains [**here**](https://github.com/IBM-Blockchain-Starter-Kit/blockchain-toolchain).
+Check out the [toolchains](Toolchains.md).
 
 ## Scaffolding Code
 
@@ -41,7 +41,7 @@ We have created several repositories which can serve as the foundational structu
 
 We have built a comprehensive build-test-deploy framework for developing smart contracts within Hyperledger frameworks. This framework is used within the delivery pipelines created by the bluemix toolchains in this kit.  We are planning on releasing a contained CLI which employs these scripts soon!
 
-Check out the scripting library [**here**](https://github.com/IBM-Blockchain-Starter-Kit/build-lib).
+Check out the [scripting library](https://github.com/IBM-Blockchain-Starter-Kit/build-lib).
 
 # Samples
 
