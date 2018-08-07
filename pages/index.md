@@ -1,4 +1,11 @@
-# Introduction 
+---
+title: "Introduction"
+keywords: about homepage
+sidebar: home_sidebar
+permalink: index.html
+---
+
+{% include warning.html content="this is a **prototype** that is currently under development by the IBM Blockchain team. As a result, it may dramatically change, have major bugs, completely fail to work, or disappear altogether. There is **no** officially provided support for this project; any bugs that you report may go unfixed for a longer period of time than you're comfortable with. If you're happy with all of that, then please carry on reading! As we work on the project, we're extremely interested in your feedback about how we could make it better, so please do get in touch via <a href='https://gitter.im/IBM-Blockchain-Starter-Kit/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link'>Gitter</a>!" %}
 
 This starter kit is intended to bootstrap your full-stack development experience building blockchain applications on top of Hyperledger frameworks.
 
@@ -20,7 +27,7 @@ If you would like to contribute to the kit, check out our [contributing guide](h
 
 For each layer of the application stack, we have created a custom [bluemix toolchain](https://console.bluemix.net/docs/services/ContinuousDelivery/toolchains_about.html#toolchains_about) template. This template configures the relevant development environment with version tracking (cloning from a scaffolding repo) and continuous integration (using our build-test-deploy framework).
 
-Check out the [toolchains](Toolchains.md).
+Check out the [toolchains](toolchains.html).
 
 ## Scaffolding Code
 
@@ -46,3 +53,5 @@ Check out the [scripting library](https://github.com/IBM-Blockchain-Starter-Kit/
 # Samples
 
 ## [Composer Walkthrough: Vehicle Manufacture Example](https://github.com/IBM-Blockchain/vehicle-manufacture)
+
+{% include links.html %}
