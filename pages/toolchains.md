@@ -1,4 +1,9 @@
-# Blockchain Toolchain Automation
+---
+title: Blockchain Toolchain Automation
+keywords: toolchain
+sidebar: home_sidebar
+permalink: toolchains.html
+---
 
 The toolchains contained in this repository will configure your development environment with version tracking (cloning from a scaffolding repo) and continuous integration (using our build-test-deploy framework) on the bluemix domain. 
 
@@ -45,3 +50,5 @@ https://console.ng.bluemix.net/devops/setup/deploy/
 ```
 
 This is only currently available for the chaincode layer. Valid platforms are 'go', 'composer', and 'js'. 
+
+{% include links.html %}
