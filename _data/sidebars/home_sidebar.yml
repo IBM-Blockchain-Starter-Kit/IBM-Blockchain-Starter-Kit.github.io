@@ -18,6 +18,10 @@ entries:
       url: /toolchains.html
       output: web, pdf
 
+    - title: Community
+      url: /community.html
+      output: web, pdf
+
   - title: Tutorials
     output: web, pdf
     folderitems:

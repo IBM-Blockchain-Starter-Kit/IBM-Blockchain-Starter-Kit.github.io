@@ -5,7 +5,7 @@ sidebar: home_sidebar
 permalink: index.html
 ---
 
-{% include warning.html content="this is a **prototype** that is currently under development by the IBM Blockchain team. As a result, it may dramatically change, have major bugs, completely fail to work, or disappear altogether. There is **no** officially provided support for this project; any bugs that you report may go unfixed for a longer period of time than you're comfortable with. If you're happy with all of that, then please carry on reading! As we work on the project, we're extremely interested in your feedback about how we could make it better, so please do get in touch via <a href='https://gitter.im/IBM-Blockchain-Starter-Kit/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link'>Gitter</a>!" %}
+{% include warning.html content="this is a **prototype** that is currently under development by the IBM Blockchain team. As a result, it may dramatically change, have major bugs, completely fail to work, or disappear altogether. There is **no** officially provided support for this project; any bugs that you report may go unfixed for a longer period of time than you're comfortable with. If you're happy with all of that, then please carry on reading! As we work on the project, we're extremely interested in your feedback about how we could make it better, so please do get in touch. See our <a href='community.html'>Community page</a> for more details." %}
 
 This starter kit is intended to bootstrap your full-stack development experience building blockchain applications on top of Hyperledger frameworks.
 
