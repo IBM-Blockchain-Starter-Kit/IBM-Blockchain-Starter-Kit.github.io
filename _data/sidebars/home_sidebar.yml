@@ -2,6 +2,7 @@
 
 entries:
 - title: sidebar
+  product: Documentation
   folders:
 
   - title: Overview
@@ -12,15 +13,7 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
-  
-  - title: Using the starter kit
-    output: web, pdf
-    folderitems:
 
     - title: Blockchain Toolchain Automation
       url: /toolchains.html
       output: web, pdf
-
-  - title: Extending the starter kit
-    output: web, pdf
-    folderitems:
