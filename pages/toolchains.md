@@ -21,7 +21,7 @@ Upon clicking one of the [buttons](#choose-your-desired-platform) below, you wil
 
 The top section of the form configures the name of the toolchain service, the region where the service will be hosted, and the cloud foundry organization which will administrate the service's settings. You should edit these fields as desired.
 
-![Toolchain Config Image](assets/toolchain_config.png)
+![Toolchain Config Image](toolchain_config.png)
 
 The rest of the form will be specifically tailored to the layer of the stack you are working on, and what Hyperledger framework you have selected. More information is available on the following layer specific walkthroughs. 
 
