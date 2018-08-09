@@ -17,3 +17,11 @@ entries:
     - title: Blockchain Toolchain Automation
       url: /toolchains.html
       output: web, pdf
+
+  - title: Tutorials
+    output: web, pdf
+    folderitems:
+
+    - title: Blockchain Sample Tutorial
+      url: /sample-tutorial.html
+      output: web, pdf
