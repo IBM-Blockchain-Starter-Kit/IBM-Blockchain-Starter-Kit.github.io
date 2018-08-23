@@ -7,3 +7,5 @@ All the documentation is written in [Markdown](https://daringfireball.net/projec
 To add a new page, you may also want to include it in a sidebar, which you can find under the **_data/sidebars** directory.
 
 For more details, including how to build the documentation locally, read the Jekyll Doc Theme's [getting started guide](https://idratherbewriting.com/documentation-theme-jekyll/index.html).
+
+Just trying out the spangly new DCO feature!
