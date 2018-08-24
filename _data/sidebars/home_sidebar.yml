@@ -29,3 +29,11 @@ entries:
     - title: Blockchain Sample Tutorial
       url: /sample-tutorial.html
       output: web, pdf
+
+  - title: Reference
+    output: web, pdf
+    folderitems:
+
+    - title: Toolchain Templates
+      url: /toolchain-templates.html
+      output: web, pdf
