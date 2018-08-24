@@ -34,6 +34,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Bootstrap Projects
+      url: /bootstrap-projects.html
+      output: web, pdf
+
     - title: Toolchain Templates
       url: /toolchain-templates.html
       output: web, pdf
