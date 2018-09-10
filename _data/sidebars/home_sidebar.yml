@@ -30,6 +30,10 @@ entries:
       url: /sample-tutorial.html
       output: web, pdf
 
+    - title: Smart Contract Tutorial
+      url: /chaincode-tutorial.html
+      output: web, pdf
+
   - title: Reference
     output: web, pdf
     folderitems:
