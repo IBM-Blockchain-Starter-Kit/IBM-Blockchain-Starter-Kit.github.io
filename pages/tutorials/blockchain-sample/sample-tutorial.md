@@ -42,7 +42,7 @@ During the toolchain setup, this GitHub repository will be cloned to a repositor
 
 Click the following link to set up a DevOps toolchain for your blockchain application:
 
-[Set up DevOps toolchain](https://console.bluemix.net/devops/setup/deploy/?repository=https%3A//github.com/IBM-Blockchain-Starter-Kit/blockchain-toolchain&branch=master&env_id=ibm%3Ayp%3Aus-south&deploy-region=ibm%3Ayp%3Aus-south&sampleRepo=https%3A//github.com/IBM-Blockchain-Starter-Kit/blockchain-sample-bootstrap)
+[Set up DevOps toolchain](https://console.bluemix.net/devops/setup/deploy/?repository=https%3A//github.com/IBM-Blockchain-Starter-Kit/blockchain-toolchain&branch=sample-template&env_id=ibm%3Ayp%3Aus-south&deploy-region=ibm%3Ayp%3Aus-south&sampleRepo=https%3A//github.com/IBM-Blockchain-Starter-Kit/blockchain-sample-bootstrap)
 
 The "Create a Toolchain" page will appear:
 
