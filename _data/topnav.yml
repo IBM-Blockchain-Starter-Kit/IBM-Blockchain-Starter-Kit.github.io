@@ -1,7 +1,7 @@
 ## Topnav single links
 ## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
 topnav:
-- title: Topnav
-  items:
-    - title: GitHub
-      external_url: https://github.com/IBM-Blockchain-Starter-Kit/IBM-Blockchain-Starter-Kit.github.io
+    - title: Topnav
+      items:
+          - title: GitHub
+            external_url: https://github.com/Blockchain-Kit/Blockchain-Kit.github.io

@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: 'Introduction'
 keywords: about homepage
 sidebar: home_sidebar
 permalink: index.html
@@ -17,9 +17,9 @@ A typical permissionable blockchain application stack has 3 highly coupled layer
 
 There are several [tools](#tools) within this kit which will allow a developer to implement, deploy, and link each layer of this stack.
 
-There are also some [sample applications](#samples) which can demonstrate typical implementations and showcase common patterns. 
+There are also some [sample applications](#samples) which can demonstrate typical implementations and showcase common patterns.
 
-If you would like to contribute to the kit, check out our [contributing guide](https://github.com/IBM-Blockchain-Starter-Kit/IBM-Blockchain-Starter-Kit.github.io/wiki/Contributing-to-Blockchain-Starter-Kit).
+If you would like to contribute to the kit, check out our [contributing guide](https://github.com/Blockchain-Kit/Blockchain-Kit.github.io/wiki/Contributing-to-Blockchain-Starter-Kit).
 
 # Tools
 
@@ -31,24 +31,27 @@ Check out the [toolchains](toolchains.html).
 
 ## Scaffolding Code
 
-We have created several repositories which can serve as the foundational structure and default configuration for each layer of the stack. 
+We have created several repositories which can serve as the foundational structure and default configuration for each layer of the stack.
 
 ### Smart Contract Scaffolding
-[Fabric: NodeJS](https://github.com/IBM-Blockchain-Starter-Kit/nodejs-chaincode-bootstrap)  
-[Fabric: goLang](https://github.com/IBM-Blockchain-Starter-Kit/chaincode-bootstrap)  
-[Composer: JS/bna](https://github.com/IBM-Blockchain-Starter-Kit/chaincode-bootstrap)  
- 
+
+[Fabric: NodeJS](https://github.com/Blockchain-Kit/nodejs-chaincode-bootstrap)  
+[Fabric: goLang](https://github.com/Blockchain-Kit/chaincode-bootstrap)  
+[Composer: JS/bna](https://github.com/Blockchain-Kit/chaincode-bootstrap)
+
 ### API Scaffolding
-[Fabric: Express](https://github.com/IBM-Blockchain-Starter-Kit/api-bootstrap)   
+
+[Fabric: Express](https://github.com/Blockchain-Kit/api-bootstrap)
 
 ### UI Scaffolding (WIP)
-*Coming Soon...*
+
+_Coming Soon..._
 
 ## Build Test Deploy Framework (WIP)
 
-We have built a comprehensive build-test-deploy framework for developing smart contracts within Hyperledger frameworks. This framework is used within the delivery pipelines created by the bluemix toolchains in this kit.  We are planning on releasing a contained CLI which employs these scripts soon!
+We have built a comprehensive build-test-deploy framework for developing smart contracts within Hyperledger frameworks. This framework is used within the delivery pipelines created by the bluemix toolchains in this kit. We are planning on releasing a contained CLI which employs these scripts soon!
 
-Check out the [scripting library](https://github.com/IBM-Blockchain-Starter-Kit/build-lib).
+Check out the [scripting library](https://github.com/Blockchain-Kit/build-lib).
 
 # Samples
 
