@@ -3,7 +3,7 @@ title: Smart Contract Tutorial
 keywords: chaincode tutorial nodejs golang
 sidebar: home_sidebar
 permalink: chaincode-tutorial.html
-summary: "These instructions include everything you need for developing Hyperledger Fabric smart contracts.<br /><br />Follow the steps below to get started:"
+summary: 'These instructions include everything you need for developing Hyperledger Fabric smart contracts.<br /><br />Follow the steps below to get started:'
 ---
 
 ## Before you start
@@ -12,7 +12,7 @@ In order to follow this tutorial, you will need to know how to develop Hyperledg
 
 Hyperledger Fabric is a platform for building blockchain applications. Hyperledger Fabric provides the blockchain technology itself, along with APIs and SDKs that allow you to develop smart contracts and end user applications.
 
-You can learn more about Hyperledger Fabric, including how to set up your local development environment, by following the [Hyperledger Fabric tutorials](http://hyperledger-fabric.readthedocs.io/en/release-1.1/tutorials.html). 
+You can learn more about Hyperledger Fabric, including how to set up your local development environment, by following the [Hyperledger Fabric tutorials](http://hyperledger-fabric.readthedocs.io/en/release-1.1/tutorials.html).
 
 In particular, we recommend that you follow the Hyperledger Fabric "Writing Your First Application" and "Chaincode for Developers" tutorials. These tutorials will teach you how to develop a smart contract, and build an end user application.
 
@@ -24,9 +24,9 @@ To start building a new smart contract, you will first set up a DevOps toolchain
 
 Choose one of the following options to set up a DevOps toolchain for your new smart contract:
 
-- [Create Go smart contract toolchain](https://console.ng.bluemix.net/devops/setup/deploy/?repository=https://github.com/IBM-Blockchain-Starter-Kit/blockchain-toolchain&branch=chaincode&platform=go&bootstrapRepo=https://github.com/IBM-Blockchain-Starter-Kit/chaincode-bootstrap.git)
+-   [Create Go smart contract toolchain](https://console.ng.bluemix.net/devops/setup/deploy/?repository=https://github.com/Blockchain-Kit/blockchain-toolchain&branch=chaincode&platform=go&bootstrapRepo=https://github.com/Blockchain-Kit/chaincode-bootstrap.git)
 
-- [Create Node.js smart contract toolchain](https://console.ng.bluemix.net/devops/setup/deploy/?repository=https://github.com/IBM-Blockchain-Starter-Kit/blockchain-toolchain&branch=chaincode&platform=js&bootstrapRepo=https://github.com/IBM-Blockchain-Starter-Kit/nodejs-chaincode-bootstrap.git)
+-   [Create Node.js smart contract toolchain](https://console.ng.bluemix.net/devops/setup/deploy/?repository=https://github.com/Blockchain-Kit/blockchain-toolchain&branch=chaincode&platform=js&bootstrapRepo=https://github.com/Blockchain-Kit/nodejs-chaincode-bootstrap.git)
 
 The "Create a Toolchain" page will appear:
 
@@ -38,9 +38,9 @@ The second section of the form is a git repo and issue tracker configuration. De
 
 ![Version and Issue Tracking Config Image](./git_repo_issues_config.png)
 
-The third section of the form is a delivery pipeline configuration. Here you can target existing service instances by specifying their identifiers or provide unregistered identifier(s) to create new instance(s). 
+The third section of the form is a delivery pipeline configuration. Here you can target existing service instances by specifying their identifiers or provide unregistered identifier(s) to create new instance(s).
 
-This delivery pipeline will queue a build stage when new changes are pushed to the chaincode repository. A successful build stage in turn will queue the unit test stage. These tests should be defined in the git repository, where examples will be provided. A successful test stage will queue the deploy stage. The deploy configuration should be defined in the git repository, where examples will be provided. The deploy stage will target the services specified in the delivery pipeline form. 
+This delivery pipeline will queue a build stage when new changes are pushed to the chaincode repository. A successful build stage in turn will queue the unit test stage. These tests should be defined in the git repository, where examples will be provided. A successful test stage will queue the deploy stage. The deploy configuration should be defined in the git repository, where examples will be provided. The deploy stage will target the services specified in the delivery pipeline form.
 
 ![Pipeline Config Image](./pipeline_config.png)
 
