@@ -13,7 +13,7 @@ We’re extremely interested in your feedback about how we could make starter ki
 
 {% include warning.html content="this is a **prototype** that is currently under development by the IBM Blockchain team. As a result, it may dramatically change, have major bugs, completely fail to work, or disappear altogether. There is **no** officially provided support for this project; any bugs that you report may go unfixed for a longer period of time than you're comfortable with. If you're happy with all of that, then please carry on reading!" %}
 
-If you encounter any problems, it's worth checking whether there is already an issue open. We track track issues across all the starter kit repositories using [ZenHub](https://app.zenhub.com/workspace/o/blockchain-kitblockchain-kit.github.io/boards?repos=137356912,137370280,137372062,137372247,137376058,137474815,143315611). If there is not already an issue open, please create one and include as much detail as possible to help us track down the problem.
+If you encounter any problems, it's worth checking whether there is already an issue open. We track track issues across all the starter kit repositories using [ZenHub](https://app.zenhub.com/workspace/o/ibm-blockchain-starter-kit/ibm-blockchain-starter-kit.github.io/boards?repos=137356912,137370280,137372062,137372247,137376058,137474815,143315611). If there is not already an issue open, please create one and include as much detail as possible to help us track down the problem.
 
 ## Contributing
 
