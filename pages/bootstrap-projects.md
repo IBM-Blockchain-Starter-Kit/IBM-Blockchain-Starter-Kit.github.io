@@ -1,5 +1,5 @@
 ---
-title: "Bootstrap Projects"
+title: 'Bootstrap Projects'
 keywords: bootstrap projects repo repository chaincode smart contract sample git github REST API
 sidebar: home_sidebar
 permalink: bootstrap-projects.html
@@ -13,13 +13,13 @@ There are several types of bootstrap projects:
 
 ## API
 
-There is currently one API repository, [api-bootstrap](https://github.com/IBM-Blockchain-Starter-Kit/api-bootstrap) which provides a bootstrap REST API server. The REST API server is built with express.js and includes a simple `/health` check endpoint. It includes a Swagger UI and uses the mocha framework for testing.
+There is currently one API repository, [api-bootstrap](https://github.com/blockchain-kit/api-bootstrap) which provides a bootstrap REST API server. The REST API server is built with express.js and includes a simple `/health` check endpoint. It includes a Swagger UI and uses the mocha framework for testing.
 
 ## Chaincode
 
 There are currently two chaincode repositories which provide bootstrap chaincode implementations in Go and Node.js respectively:
 
-- [chaincode-bootstrap](https://github.com/IBM-Blockchain-Starter-Kit/chaincode-bootstrap)
-- [nodejs-chaincode-bootstrap](https://github.com/IBM-Blockchain-Starter-Kit/nodejs-chaincode-bootstrap)
+-   [chaincode-bootstrap](https://github.com/blockchain-kit/chaincode-bootstrap)
+-   [nodejs-chaincode-bootstrap](https://github.com/blockchain-kit/nodejs-chaincode-bootstrap)
 
 {% include links.html %}

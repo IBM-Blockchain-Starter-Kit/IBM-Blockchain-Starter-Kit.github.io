@@ -3,7 +3,7 @@ title: Blockchain Sample Tutorial
 keywords: sample tutorial composer
 sidebar: home_sidebar
 permalink: sample-tutorial.html
-summary: "These instructions include everything you need for developing smart contracts, exposing them via RESTful APIs, building end user applications, and automatically deploying everything to the IBM Cloud, including any future changes you make.<br /><br />Follow the steps below to get started:"
+summary: 'These instructions include everything you need for developing smart contracts, exposing them via RESTful APIs, building end user applications, and automatically deploying everything to the IBM Cloud, including any future changes you make.<br /><br />Follow the steps below to get started:'
 ---
 
 ## 1. Setting up the local development environment
@@ -36,13 +36,13 @@ In particular, we recommend that you follow the Hyperledger Composer development
 
 ## 2. Setting up the project and DevOps toolchain
 
-To start building a blockchain sample, you will first set up a DevOps toolchain that will automatically build, test, and deploy your blockchain application to the IBM Cloud.  The IBM Cloud DevOps service is used to run the DevOps toolchain, and a toolchain template that is suitable for developing samples is provided.
+To start building a blockchain sample, you will first set up a DevOps toolchain that will automatically build, test, and deploy your blockchain application to the IBM Cloud. The IBM Cloud DevOps service is used to run the DevOps toolchain, and a toolchain template that is suitable for developing samples is provided.
 
-During the toolchain setup, this GitHub repository will be cloned to a repository of your choosing.  You develop your blockchain application by working on your cloned GitHub repository. You do not need to manually clone this GitHub repository if you follow the steps below: please carry on reading!
+During the toolchain setup, this GitHub repository will be cloned to a repository of your choosing. You develop your blockchain application by working on your cloned GitHub repository. You do not need to manually clone this GitHub repository if you follow the steps below: please carry on reading!
 
 Click the following link to set up a DevOps toolchain for your blockchain application:
 
-[Set up DevOps toolchain](https://console.bluemix.net/devops/setup/deploy/?repository=https%3A//github.com/IBM-Blockchain-Starter-Kit/blockchain-toolchain&branch=sample-template&env_id=ibm%3Ayp%3Aus-south&deploy-region=ibm%3Ayp%3Aus-south&sampleRepo=https%3A//github.com/IBM-Blockchain-Starter-Kit/blockchain-sample-bootstrap)
+[Set up DevOps toolchain](https://console.bluemix.net/devops/setup/deploy/?repository=https%3A//github.com/blockchain-kit/blockchain-toolchain&branch=sample-template&env_id=ibm%3Ayp%3Aus-south&deploy-region=ibm%3Ayp%3Aus-south&sampleRepo=https%3A//github.com/blockchain-kit/blockchain-sample-bootstrap)
 
 The "Create a Toolchain" page will appear:
 
@@ -195,14 +195,13 @@ In this example, I have created an application called "marbles":
 The contents of the `manifest.yml` file at the bottom of the editor tell Cloud Foundry the command for running this application, the number of instances of the application to start, and the amount of memory each instance is given. For example:
 
 ```yaml
----
 applications:
-- disk_quota: 1024M
-  name: marbles
-  command: "node app.js"
-  path: "."
-  instances: 1
-  memory: 256M
+    - disk_quota: 1024M
+      name: marbles
+      command: 'node app.js'
+      path: '.'
+      instances: 1
+      memory: 256M
 ```
 
 See the Cloud Foundry and IBM Cloud documentation for further information on this file.
@@ -233,10 +232,7 @@ All applications deployed by this starter kit will be automatically bound to the
             "provider": null,
             "plan": "ibm-blockchain-plan-v1-starter-prod",
             "name": "blockchain-simons-blockchain-app",
-            "tags": [
-                "blockchain",
-                "ibm_created"
-            ]
+            "tags": ["blockchain", "ibm_created"]
         }
     ]
 }
@@ -298,10 +294,7 @@ Finally, all applications deployed by this starter kit will be automatically bou
             "provider": null,
             "plan": "ibm-blockchain-plan-v1-starter-prod",
             "name": "blockchain-simons-blockchain-app",
-            "tags": [
-                "blockchain",
-                "ibm_created"
-            ]
+            "tags": ["blockchain", "ibm_created"]
         }
     ]
 }

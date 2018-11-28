@@ -1,4 +1,4 @@
-repository: IBM-Blockchain-Starter-Kit/IBM-Blockchain-Starter-Kit.github.io
+repository: Blockchain-Kit/Blockchain-Kit.github.io
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -31,9 +31,9 @@ port: 4000
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
 exclude:
-  - .gitignore
-  - LICENSE
-  - README.md
+    - .gitignore
+    - LICENSE
+    - README.md
 # these are the files and directories that jekyll will exclude from the build
 
 feedback_subject_line: Blockchain Starter Kit
@@ -55,33 +55,32 @@ highlighter: rouge
 
 markdown: kramdown
 kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
- syntax_highlighter: rouge
+    input: GFM
+    auto_ids: true
+    hard_wrap: false
+    syntax_highlighter: rouge
 
 # filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 
 defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      comments: true
-      search: true
-      sidebar: home_sidebar
-      topnav: topnav
+    - scope:
+          path: ''
+          type: 'pages'
+      values:
+          layout: 'page'
+          comments: true
+          search: true
+          sidebar: home_sidebar
+          topnav: topnav
 
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
-- home_sidebar
+    - home_sidebar
 
-description: "IBM Blockchain Starter Kit documentation."
+description: 'IBM Blockchain Starter Kit documentation.'
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: https://ibm-blockchain-starter-kit.github.io/
+url: https://blockchain-kit.github.io/
 baseurl: /

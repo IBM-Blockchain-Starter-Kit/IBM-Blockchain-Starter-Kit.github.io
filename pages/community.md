@@ -1,5 +1,5 @@
 ---
-title: "Community"
+title: 'Community'
 keywords: community chat help Gitter wiki GitHub issues ZenHub feedback contributing
 sidebar: home_sidebar
 permalink: community.html
@@ -7,7 +7,7 @@ permalink: community.html
 
 ## Feedback and Questions
 
-We’re extremely interested in your feedback about how we could make starter kit even better, so please do get in touch via [our Gitter room](https://gitter.im/IBM-Blockchain-Starter-Kit/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link).
+We’re extremely interested in your feedback about how we could make starter kit even better, so please do get in touch via [our Gitter room](https://gitter.im/blockchain-kit/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link).
 
 ## Issues
 
@@ -17,9 +17,9 @@ If you encounter any problems, it's worth checking whether there is already an i
 
 ## Contributing
 
-{% include callout.html content="We welcome contributions!" type="primary" %} 
+{% include callout.html content="We welcome contributions!" type="primary" %}
 
-There should be a contributing guide in each of the repositories in [our GitHub organisation](https://github.com/IBM-Blockchain-Starter-Kit), for example the [build-lib contributing guide](https://github.com/IBM-Blockchain-Starter-Kit/build-lib/blob/master/CONTRIBUTING.md).
+There should be a contributing guide in each of the repositories in [our GitHub organisation](https://github.com/blockchain-kit), for example the [build-lib contributing guide](https://github.com/blockchain-kit/build-lib/blob/master/CONTRIBUTING.md).
 
 If you have any questions, especially if you're about to start on a large piece of work, please get in touch.
 
